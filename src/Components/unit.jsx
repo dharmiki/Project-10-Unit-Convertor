@@ -68,7 +68,7 @@ function Unit() {
       <div className="bg-white p-8 rounded-2xl shadow-lg w-full max-w-md">
         <h1 className="text-3xl font-bold mb-6 text-center text-indigo-700">Unit Converter</h1>
 
-        {/* Category Selection */}
+        
         <label className="block mb-2 font-medium text-gray-700">Category</label>
         <select
           className="w-full border rounded-lg p-2 mb-4 focus:outline-none focus:ring-2 focus:ring-indigo-400"
@@ -84,7 +84,7 @@ function Unit() {
           ))}
         </select>
 
-        {/* From and To Selectors */}
+        
         <div className="flex gap-3 mb-4">
           <div className="flex-1">
             <label className="block mb-2 font-medium text-gray-700">From</label>
@@ -113,7 +113,7 @@ function Unit() {
           </div>
         </div>
 
-        {/* Value Input */}
+      
         <label className="block mb-2 font-medium text-gray-700">Value</label>
         <input
           type="number"
@@ -123,7 +123,7 @@ function Unit() {
           placeholder="Enter a value..."
         />
 
-        {/* Convert Button */}
+        
         <button
           onClick={handleConvert}
           className="w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700 transition-all font-semibold"
@@ -131,7 +131,7 @@ function Unit() {
           Convert
         </button>
 
-        {/* Result Display */}
+        
         {result && (
           <div className="mt-4 text-center text-lg font-semibold text-gray-800">
             Result:{" "}
